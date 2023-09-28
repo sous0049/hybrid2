@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:main/lucky.dart';
+import 'package:hybrid2/lucky.dart';
 
 void main(List<String> arguments) {
   if (arguments.isEmpty) {
