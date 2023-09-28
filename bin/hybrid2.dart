@@ -9,8 +9,8 @@ void main(List<String> arguments) {
   }
 
   for (var n in arguments) {
-    var capitalizedName = n[0].toUpperCase() + n.substring(1);
-    var lucky = Lucky();
+    String capitalizedName = n[0].toUpperCase() + n.substring(1);
+    Lucky lucky = Lucky();
 
     print('Hello $capitalizedName. Your lucky number is ${lucky.luckyNumber}');
   }
