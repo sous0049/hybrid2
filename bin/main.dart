@@ -1,10 +1,10 @@
 import 'dart:io';
-import 'package:hybrid2/lucky.dart';
+import 'package:main/lucky.dart';
 
 void main(List<String> arguments) {
   if (arguments.isEmpty) {
     print(
-        'Please, to run this program, provide names while using: dart bin/main.dart <name1> <name2> ...');
+        'Please, to run this program, provide names while using: dart bin/hybrid2.dart <name1> <name2> ...');
     return;
   }
 
